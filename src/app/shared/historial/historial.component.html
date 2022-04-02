@@ -1,0 +1,41 @@
+
+   <div class="bg bg-warning border-right p-2"><p style="margin-bottom:0px">
+      <span style="text-align: left;"><a id="link" [routerLink]="[ '' ]" style="margin-left:5px;"><i class="bi bi-house"></i> Home</a></span>
+      <span *ngIf="loginOK == false || loginOK == undefined" style="float: right; ">
+         <a id="link" [routerLink]="[ 'sigin' ]"  style="margin-right: 10px;"><i class="bi bi-plus-square"></i> Sig-in</a>
+         <a id="link" [routerLink]="[ 'login' ]"  style="margin-right: 5px;"><i class="bi bi-box-arrow-in-right"></i> Log-in</a>
+      </span>
+      <span *ngIf="loginOK == true" style="float: right; ">
+         <a id="link" [routerLink]="[ 'profile' ]"  style="margin-right: 10px;"><i class="bi bi-person-fill"></i> {{usuario}}</a>
+         <a id="link" (click) = "onLogout()" [routerLink]="[ '' ]"  style="margin-right: 5px;"><i class="bi bi-box-arrow-right"></i> Log-out</a>
+      </span>
+   </div>
+   
+   <div align="center" id="historial">
+
+    <div style="  background-image: url('./assets/pelis.jpg')"><div style="background-color: rgba(0, 0, 0, 0.5)" class="border-right p-3"><h3><a [routerLink]="[ '' ]" style="text-shadow: 0px 0px 20px black; color:white;text-decoration: none"><i class="bi-film"></i> MoviePosterApp <i class="bi-film"></i></a></h3></div></div>
+
+    <div class="bg bg-success border-right"><div *ngIf="historial[0]==null" style="background-image: url('./assets/pattern.jpg');background-size: 200px 200px; height: 10px;"></div><div style="opacity: 1;background-image: url('./assets/pattern.jpg');background-size: 200px 200px" *ngIf="historial[0]!=null" class="border-right p-4"><div style="max-height:0px;overflow:hidden" #histo id="histo"><h5 class="text-white" *ngIf="historial[0]!=null">Historial</h5>
+
+    <span
+        
+        *ngFor="let item of historial"
+        class="btn-group m-1">
+     
+         <button [routerLink]="[ '' ]" (click)="buscar(item)" style="margin-top:5px;outline: none; box-shadow: none;" class="btn btn-outline-light">
+            {{item | titlecase }}
+         </button>
+
+         <button [routerLink]="[ '' ]" (click)="eliminar(item)" style="margin-top:5px;outline: none; box-shadow: none;" class="btn btn-outline-light">
+           <i class="bi bi-x"></i>
+         </button>
+
+    </span>
+
+   </div>
+
+   <div *ngIf="historial[0]!=null" #respon (click)="responsive()" id="respon" style="transform:rotate(45deg); margin-top:-10px;width:25px;height:25px;border-right: 2px solid white;border-bottom:2px solid white"></div>
+
+   </div>
+
+    </div></div>

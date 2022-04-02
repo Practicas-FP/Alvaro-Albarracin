@@ -1,0 +1,40 @@
+    <div class="">
+        <div class="col-12">
+            <h1 style="margin-top:35px" align="center">{{  this.tituloPeli  }}</h1>
+        </div>
+    </div>
+
+    <div align="center" style="margin-right:0px;margin-top:-30px" class="row p-5 animate__animated animate__fadeIn">
+        
+        <div *ngIf="this.imagenPeli != null" class="col-sm-15 col-md-5 col-lg-3">
+            <a href="{{ imagenUrl }}{{ this.imagenPeli }}" target="_blank"><img id="caja" style="text-decoration: none; color: black; outline:none;margin-bottom:20px;max-height: 500px;" src="{{ imagenUrl }}{{ this.imagenPeli }}" class="img-thumbnail" /></a>
+        </div><br>
+
+        <div align="justify" class="col">
+            <ul class="list-group">
+                <li align="center" class="bg bg-success list-group-item">
+                    <span (click)="fav()" *ngIf="loginOK == true && isFav==false" style="float:left"><button style="outline:none;box-shadow: none;margin-left:-7px;font-size:10px; width:25px;" class="p-1 btn btn-outline-light"><i class="bi bi-heart-fill"></i></button></span>
+                    <span (click)="fav()" *ngIf="loginOK == true && isFav==true" style="float:left"><button style="outline:nose;box-shadow: none;margin-left:-7px;font-size:10px; width:25px;" class="p-1 btn btn-danger"><i class="bi bi-heart"></i></button></span>
+
+                    <strong style="color:white">INFORMACIÓN</strong><br>
+                </li>                
+                <li class="list-group-item">
+                    <strong>Año:</strong><br>{{ this.anioPeli | date:"yyyy" }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Nota:</strong><br>{{ this.notaPeli }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Resumen:</strong><br>{{ this.resumenPeli }}
+                </li>
+            </ul>
+
+            <div *ngIf="this.origen=='p'" align="center" ><a style="margin-top:25px" class="btn btn-success" [routerLink]="[ '../../profile' ]">Volver</a></div>
+            <div *ngIf="this.origen=='r'" align="center" ><a style="margin-top:25px" class="btn btn-success" [routerLink]="[ '' ]">Volver</a></div>
+
+        </div>
+
+    </div>   
+    
+
+    

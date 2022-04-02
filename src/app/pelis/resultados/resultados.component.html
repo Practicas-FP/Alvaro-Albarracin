@@ -1,0 +1,61 @@
+<style>
+    .stylePagination /deep/ .ngx-pagination .current {
+      background: #198754;
+      border-radius: 50px;
+    }
+    .stylePagination /deep/ .ngx-pagination a:hover {
+      border-radius: 50px;
+    }
+</style>
+  <div style="padding:20px">
+
+    <div *ngIf="this.load == true" style="text-align:center;margin-top:-60px;"><img  style="width: 300px;" src="https://media.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.gif"></div>
+
+    <div *ngIf="total != undefined && total > 0 && this.load == false" class="row">
+
+        <div class="animate__animated animate__fadeIn" style="font-size: 12px;" *ngIf="total > 0">
+            
+            <h5>Búsqueda: «{{ query }}»</h5>  
+
+            <div style="margin-left:-30px;"><pagination-controls class="stylePagination" (pageChange)="p = $event" [previousLabel]="labels.previousLabel" [nextLabel]="labels.nextLabel"></pagination-controls></div>
+        
+        </div>
+
+            <div 
+            *ngFor="let peli of resultados | paginate: { itemsPerPage: 4, currentPage: p }"
+            class="col-sm-6 col-md-3 col-lg-3 p-3 animate__animated animate__fadeIn">
+
+            <a (click)="this.pelisService.origin('r')" tyle="text-decoration: none; color: black; outline:none" [routerLink]="[ 'detalle', peli.id ]">
+
+            <div id="caja" class="card p-1">
+
+                <div *ngIf="peli.nula == false"><a href="{{ imagenUrl }}{{ peli.poster_path }}" target="_blank"><img id="imagen" src="{{ imagenUrl }}{{ peli.poster_path }}" 
+                    [alt]="peli.title"
+                    class="card w-100"></a></div>
+
+                <div *ngIf="peli.nula == true"><img id="imagen" src="./assets/default.png"
+                    class="card w-100"></div>
+
+                <div class="card-body">
+
+                    <div align= "center" class="card-text" style="font-size:12px">
+
+                        <b><p style="margin-bottom:0px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ peli.title }}</p></b>
+                            Año: {{ peli.release_date | date:"yyyy" }}<br>
+            
+                    </div>
+
+                </div>
+
+            </div>
+
+        </a>
+
+         </div>
+
+ 
+    </div>
+
+    <div style="padding:20px;margin-top: -20px;" *ngIf="total == undefined || total < 0" #sinResultados><div style="border-radius:5px;background-image: url('./assets/pelis.jpg')" align="center"><div style="border-radius:5px;background-color: rgba(0, 0, 0, 0.5)" class="p-5"><h2 style="color:white">Bienvenido a tu App de búsqueda de pósters de películas</h2></div></div></div>
+
+</div>

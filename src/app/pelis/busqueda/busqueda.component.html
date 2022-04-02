@@ -1,0 +1,56 @@
+<div class="input-group mb-3">
+    <button style ="outline: none; box-shadow: none;" class="btn btn-success" (click)="buscar()">Buscar</button>
+    <input 
+            autocomplete="off"
+            style ="border:1px solid green; outline: none; box-shadow: none;"
+            type="text" 
+            class="form-control"
+            id="ph"
+            placeholder="Buscar pósters..."
+            (keydown.enter)="buscar()"
+            #txtBuscar>
+
+</div>
+
+<div *ngIf="estate=='true'" class="form-check">
+
+    <input  style="outline: none; box-shadow: none;" 
+            class="form-check-input" 
+            type="checkbox" 
+            value="" 
+            id="flexCheckDefault"
+            checked
+            (click)="cambiarEstado()"
+            #check>
+
+    <label  class="form-check-label" for="flexCheckDefault">
+
+        Ocultar películas sin póster
+
+    </label><br>
+
+</div>
+
+<div *ngIf="estate=='false' || estate == undefined" class="form-check">
+
+    <input  style="outline: none; box-shadow: none;" 
+            class="form-check-input" 
+            type="checkbox" 
+            value="" 
+            id="flexCheckDefault"
+            (click)="cambiarEstado()"
+            #check>
+
+    <label  class="form-check-label" for="flexCheckDefault">
+
+        Ocultar películas sin póster
+
+    </label><br>
+
+</div>
+
+<div *ngIf="total == 0" align="center">
+   <div style="margin-top:15px;margin-bottom:-5px;width:100%" class="alert alert-danger">
+        No se obtuvo ningún resultado en la búsqueda
+    </div>
+</div>

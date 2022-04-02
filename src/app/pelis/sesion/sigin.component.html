@@ -1,0 +1,55 @@
+<div align="center">
+
+    <div style="max-width:500px" class="p-3 animate__animated animate__fadeIn">
+    
+        <h4 style="margin-top:10px;margin-bottom:20px">Crea una cuenta</h4>
+
+        <div class="form-check card p-5">
+
+        <form [formGroup] ="registerForm" (ngSubmit) = "onRegister()">
+
+            <input 
+                autocomplete="off"
+                style ="text-align:center;border:1px solid green; outline: none; box-shadow: none; margin-bottom: 40px;"
+                type="email" 
+                class="ph form-control"
+                placeholder="Usuario"
+                formControlName ="email"
+                >
+
+            <input 
+                autocomplete="off"
+                style ="text-align:center;border:1px solid green; outline: none; box-shadow: none;  margin-bottom: 40px"
+                type="password" 
+                class="ph form-control"
+                placeholder="Contraseña"
+                formControlName ="password"
+                >
+
+                
+            <input 
+                autocomplete="off"
+                style ="text-align:center;border:1px solid green; outline: none; box-shadow: none;  margin-bottom: 40px"
+                type="password" 
+                class="ph form-control"
+                placeholder="Confirma tu contraseña"
+                formControlName ="passwordConfirm"
+                >
+
+            <button type="submit" style ="outline: none; box-shadow: none;" class="btn btn-success">Crear</button>
+
+        </form>
+
+        <p style="margin-top:20px; margin-bottom: -10px;">¿Ya tienes cuenta? <a [routerLink]="[ '../login' ]" id="link1" href="#">Accede</a></p>
+
+        <div *ngIf="error == true" align="center">
+            <div style="margin-top:45px;margin-bottom:-5px;width:100%" class="alert alert-danger">
+                 {{mensaje}}
+             </div>
+         </div>
+
+        </div>
+
+    </div>
+
+</div>

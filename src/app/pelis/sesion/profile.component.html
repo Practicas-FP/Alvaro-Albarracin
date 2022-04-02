@@ -1,0 +1,71 @@
+<div class="">
+    <div class="col-12">
+        <h4 style="margin-top:35px" align="center">{{ usuario }}</h4>
+        <p style="color:grey;font-size:14px;margin-top:10px" align="center">ID: {{ uid }}</p>
+    </div>
+</div>
+<style>
+    .stylePagination /deep/ .ngx-pagination .current {
+      background: #198754;
+      border-radius: 50px;
+    }
+    .stylePagination /deep/ .ngx-pagination a:hover {
+      border-radius: 50px;
+    }
+</style>
+  <div style="padding:20px">
+
+    <div align ="center" *ngIf="total != undefined && total > 0" class="row">
+
+        <div *ngIf="this.load == true" style="text-align:center;margin-top:-40px;"><img  style="width: 300px;" src="https://media.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.gif"></div>
+
+        <div class="animate__animated animate__fadeIn" style="font-size: 12px;" *ngIf="total > 0 && this.load == false">
+            
+            <h2 style="margin-top:-20px">Películas favoritas</h2>  
+
+            <div style="margin-left:-30px;"><pagination-controls class="stylePagination" (pageChange)="p = $event" [previousLabel]="labels.previousLabel" [nextLabel]="labels.nextLabel"></pagination-controls></div>
+        
+        </div>
+
+            <div 
+            *ngFor="let item of datos | paginate: { itemsPerPage: 4, currentPage: p }"
+            class="col-sm-6 col-md-3 col-lg-3 p-3 animate__animated animate__fadeIn">
+
+            <div *ngIf="this.load == false" class="card p-1">
+
+                <div *ngIf="item.poster_path != null"><a href= "detalle/{{item.id}}"><img id="imagen" src="{{ imagenUrl }}{{ item.poster_path }}" 
+                    [alt]="item.title"
+                    class="card w-100"></a></div>
+
+                <div *ngIf="item.poster_path == null"><img id="imagen" src="./assets/default.png"
+                    class="card w-100"></div>
+
+                <div class="card-body">
+
+                    <div align= "center" class="card-text" style="color:black;font-size:12px">
+
+                        <b><p style="margin-bottom:0px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ item.title }}</p></b>
+                            Año: {{ item.release_date | date:"yyyy" }}<br>
+
+                            <button (click)="this.pelisService.origin('p')" [routerLink]="[ '../detalle/'+item.id]" style="outline:none; box-shadow: none;" class="btn btn-outline-success m-2"><i class="bi bi-arrow-up"></i></button>
+                            <button (click)="noFav(item.id)" style="outline:none; box-shadow: none;" class="btn btn-outline-danger m-2"><i class="bi bi-x"></i></button>
+            
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+ 
+    </div>
+
+    <div *ngIf ="this.load != true">
+
+    <div style="padding:20px;margin-top: -20px;" *ngIf="total == undefined || total == 0"><div style="border-radius:5px;background-image: url('./assets/pelis.jpg')" align="center"><div style="border-radius:5px;background-color: rgba(255, 0, 0, 0.5)" class="p-5"><h2 style="color:white">No has añadido ninguna película a tu lista de favoritos</h2></div></div></div>
+
+    </div>
+
+</div>
+
