@@ -1,3 +1,4 @@
+
 # Información general.
 Repositorio con los trabajos realizados por el alumno Álvaro González Albarracín en las prácticas correspondientes al FCT de DAM en Accenture.
 En concreto las prácticas consisten en realizar una aplicación que consuma una Api pública y que muestre los resultados por pantalla de una forma atractiva.
@@ -19,6 +20,7 @@ Características:
 - Sístema de login.
 - Guardado de favoritos.
 - Cambio de imagen de usuario.
+
 ![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
 ![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
 ![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
