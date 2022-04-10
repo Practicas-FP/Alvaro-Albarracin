@@ -5,7 +5,21 @@ La Api seleccionad apara mis prácticas ha sido la de [TMDB](https://www.themovi
 - Angular.
 - Ionic.
 ## Angular.
+Características:
+- Consumo de Api.
+- Cuadro de búsqueda por término.
+- Filtro por películas sin póster.
+- Sístema de login.
+- Guardado de favoritos.
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
 ## Ionic.
+Características:
+- Consumo de Api.
+- Cuadro de búsqueda por término.
+- Sístema de login.
+- Guardado de favoritos.
+- Cambio de imagen de usuario.
 ![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
 ![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
+![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
+![Ionic4](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic4.png?raw=true)
