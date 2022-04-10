@@ -5,3 +5,7 @@ La Api seleccionad apara mis prácticas ha sido la de [TMDB](https://www.themovi
 - Angular.
 - Ionic.
 ## Angular.
+![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
+## Ionic.
+![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
+![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
