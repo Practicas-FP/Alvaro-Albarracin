@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="myColor">      
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+     <ion-title>Sig-in</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card id="margenes" style="margin-top:20px">
+
+  <ion-item>
+    <ion-label color="success" position="floating">Usuario</ion-label>
+    <ion-input [(ngModel)]="us" (change)="user($event)"
+    ></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label color="success" position="floating">Contraseña</ion-label>
+    <ion-input 
+      [(ngModel)]="ps"
+      (change)="pass($event)"
+      type="password">
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="success" position="floating">Repite la contraseña</ion-label>
+    <ion-input 
+      [(ngModel)]="psr"
+      (change)="passR($event)"
+      type="password">
+    </ion-input>
+  </ion-item>
+
+  <div align="center" id="alerta" *ngIf="error == true">
+    {{mensaje}}
+  </div>
+
+  <div align="center"><ion-button (click)="onRegister()" style="margin:20px">Crear cuenta</ion-button></div>
+
+  </ion-card>
+  
+</ion-content>

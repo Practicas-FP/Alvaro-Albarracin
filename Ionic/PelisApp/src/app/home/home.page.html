@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="myColor">      
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>
+          MoviePosterApp
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="divBuscar">
+  <ion-searchbar [(ngModel)]="searchValue" no-border
+    type="text" 
+    placeholder="Buscar póster"
+    (keyup.enter)="buscar($event)"
+    >
+  </ion-searchbar>
+  </div>
+
+  <div *ngIf="total > 0 && carga == true" id="divResultados" align="center">
+      <img height="150" style="margin-top: -50px;" src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
+  </div>
+
+  <div *ngIf="total > 0 && carga == false" id="divResultados" align="center">
+    <h2 style="margin-top:-12px;margin-bottom:-15px;font-weight:600" calign="center">Búsqueda: {{this.contenido}}</h2>
+    <div id="margenes"  *ngFor="let peli of resultados">
+    <ion-card (click)="origen('h')" [routerLink]="[ '../detalle', peli.id ]">
+    
+      <img id="imagen" src="{{ imagenUrl }}{{ peli.poster_path }}">
+      <ion-card-title id="tituloB">{{peli.title}}</ion-card-title>
+     </ion-card>
+    </div>
+  </div>
+
+  <div *ngIf="total == undefined" id="divResultados" align="center">
+    <div id="margenes" style="margin-top:-10px;font-family:impact;font-size:45px;border-radius:5px;color:white;padding:15px;background-color:black">
+      ¡BIENVENIDOS!<br>
+      <img src="https://media.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif">
+      <div style="font-size:25px">MoviePosterApp tu app para buscar pósters de películas</div>
+    </div>
+  </div>
+
+  <div id="margenes" *ngIf="total == 0" id="divResultados" align="center">
+    <div id="alerta">
+      No se han encontrado resultados 
+    </div>
+  </div>
+
+</ion-content>

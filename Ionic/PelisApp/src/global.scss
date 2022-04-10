@@ -1,0 +1,139 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+ion-searchbar {
+    width:auto !important;
+    --placeholder-font-style: italic !important;
+    --placeholder-color: rgb(154, 153, 153) !important;
+}
+
+#corazon{
+    height: 61px;
+    width: 61px;
+    border: 1px solid red;
+    font-size:40px;
+    padding: 10px;;
+    border-radius:5px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color:red
+}
+
+#corazonFav{
+    height: 61px;
+    width: 61px;
+    border: 1px solid red;
+    font-size:40px;
+    padding: 10px;;
+    background-color: rgb(255, 221, 221);
+    border-radius:5px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color:red
+}
+
+#divBuscar{
+    position:fixed;
+    z-index: 99;
+    background-color: var(--ion-color-warning);
+    padding:10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#divResultados{
+    margin-top: 110px;
+}
+
+#margenes{
+    margin:20px; 
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+#fondo{
+    padding:20px;
+    background-size: cover;
+    height: auto;
+}
+
+#tituloD{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:10px;
+    color:white
+}
+
+#tituloB{
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:20px;
+    margin-top: -100px;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 15%, rgba(0,0,0,0) 100%);
+}
+
+#alerta{
+    border:1px solid red;
+    background-color:rgb(255, 231, 231);
+    color:red;
+    padding:20px;
+    border-radius:5px;
+    margin:20px 20px 0px 20px;
+}
+
+    ion-card{
+    border-radius: 10px;
+}
+
+ion-card-title{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:10px;
+}
+
+ion-card-subtitle{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+ion-toolbar{
+    background-image: url('assets/pattern.jpg');
+    background-size: 200px 200px;
+    background-color: var(--ion-color-mycolor);
+    color: var(--ion-color-mycolor-contrast);
+}
+
+ion-title{
+    margin-left: -20px;
+    font-weight: 600;
+}
+
+ion-button{
+    --background: var(--ion-color-mycolor);
+}

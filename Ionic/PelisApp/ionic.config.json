@@ -1,0 +1,8 @@
+{
+  "name": "PelisApp",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

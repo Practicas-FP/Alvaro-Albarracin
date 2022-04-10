@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="myColor">      
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+     <ion-title>Películas favoritas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngIf="this.pelisService.totalFav > 0 && carga == true" id="divResultados" align="center">
+    <img height="150" style="margin-top: -120px;" src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
+</div>
+
+<div *ngIf="this.pelisService.totalFav < 1 && carga == false" id="margenes" align="center">
+
+  <div align="center" style="margin-top:-10px;margin-bottom:-20px"><img (click)="foto()" style="object-fit: cover;border-radius: 50px;" height="80" width="80" src="{{this.photo}}"><div style="margin-top:-10px;padding:20px;font-size:20px;font-weight: 600;">{{ this.email }}</div></div>
+
+  <div id="alerta">
+    No tienes películas favoritas 
+  </div></div>
+
+<div *ngIf="this.pelisService.totalFav > 0 && carga == false" id="margenes" align="center">
+
+  <div align="center" style="margin-top:-10px;margin-bottom:-10px"><img (click)="foto()" style="object-fit: cover;border-radius: 50px;" height="80" width="80" src="{{this.photo}}"><div style="margin-top:-10px;padding:20px;font-size:20px;font-weight: 600;">{{ this.email }}</div></div>
+ 
+  <div *ngFor="let peli of this.pelisService.datos">
+  <ion-card (click)="origen('p')" style="margin-bottom:30px" [routerLink]="[ '../detalle', peli.id ]">
+    <img id="imagen" src="{{ imagenUrl }}{{ peli.poster_path }}">
+    <ion-card-title id="tituloB">{{peli.title}}</ion-card-title>
+   </ion-card>
+  </div>
+</div>
+  
+</ion-content>

@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="myColor">      
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>
+          <span>Detalle película</span><span style="float:right"><ion-icon (click)="volver()" name="arrow-back-outline"></ion-icon></span>
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngIf="carga == true" id="divResultados" align="center">
+    <img height="150" style="margin-top: -160px;" src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
+  </div>
+
+  <div *ngIf="carga == false">
+
+  <div *ngIf="this.fondoPeli != null" style="background-image: url('{{ imagenUrl }}{{ this.fondoPeli }}');width:100%;background-size: cover;"><div id="fondo" style="background-color:rgba(0, 0, 0, 0.3)">
+    <ion-card-title id="tituloD">{{this.tituloPeli}}</ion-card-title>
+  </div></div>
+
+  <div *ngIf="this.fondoPeli == null" style="background-image: url('./assets/pelis.jpg');width:100%;background-size: cover;"><div id="fondo" style="background-color:rgba(0, 0, 0, 0.3)">
+    <ion-card-title id="tituloD">{{this.tituloPeli}}</ion-card-title>
+  </div></div>
+
+  <div *ngIf="isFav == false && loginOK==true" align="center">
+    <div  (click) = "fav()" id="corazon">
+      <ion-icon name="heart-outline"></ion-icon>
+    </div>
+  </div>
+  <div *ngIf="isFav == true && loginOK==true" align="center">
+    <div (click) = "fav()" id="corazonFav">
+      <ion-icon name="heart"></ion-icon>
+    </div>
+  </div>
+
+  <div id="margenes" align="center">
+    <ion-card>        
+      <img id="imagen" src="{{ imagenUrl }}{{ this.imagenPeli }}">
+      <ion-list>
+        <ion-item>
+          <ion-label>Año: {{ this.anioPeliS }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Nota: {{ this.notaPeli}}</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-card-subtitle style="text-align:justify;padding:15px">{{ this.resumenPeli }}<br>
+      </ion-card-subtitle>
+     </ion-card>
+    </div>
+  </div>
+</ion-content>
