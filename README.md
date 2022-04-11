@@ -22,7 +22,7 @@ Características:
 - Guardado de favoritos.
 - Cambio de imagen de usuario.
 
-![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true){width="50"}
-![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true){width=50%}
-![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true){height="36px" width="36px"}
-![Ionic4](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic4.png?raw=true){:height="36px" width="36px"}
+![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
+![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
+![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
+![Ionic4](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic4.png?raw=true)
