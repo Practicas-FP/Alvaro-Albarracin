@@ -5,7 +5,7 @@ En concreto las prácticas consisten en realizar una aplicación que consuma una
 La Api seleccionad apara mis prácticas ha sido la de [TMDB](https://www.themoviedb.org/movie?language=es-ES) y hemos trabajado en dos tecnolías por el momento:
 - Angular.
 - Ionic.
-- React *(en proceso...).*
+- React *(en proceso...)*
 ___
 ## Angular.
 Características:
@@ -15,8 +15,9 @@ Características:
 - Sístema de login.
 - Guardado de favoritos.
 - Desplegar como web.
-___
+
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
+___
 ## Ionic.
 Características:
 - Consumo de Api.
@@ -25,7 +26,7 @@ Características:
 - Guardado de favoritos.
 - Cambio de imagen de usuario.
 - Desplegar como APK.
-___
+
 ![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
 ![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
 ![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
