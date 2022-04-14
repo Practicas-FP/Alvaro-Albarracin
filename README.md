@@ -12,7 +12,7 @@ Características:
 - Consumo de Api.
 - Cuadro de búsqueda por término.
 - Filtro por películas sin póster.
-- Sístema de login con Firebase de Google
+- Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web.
 
@@ -22,7 +22,7 @@ ___
 Características:
 - Consumo de Api.
 - Cuadro de búsqueda por término.
-- Sístema de login con Firebase de Google
+- Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Cambio de imagen de usuario.
 - Desplegar como APK.
