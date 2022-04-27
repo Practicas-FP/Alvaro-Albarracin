@@ -1,0 +1,562 @@
+body {
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  color: #fff;
+  background-image: url('https://img.freepik.com/vector-gratis/dibujado-mano-icono-hashtag-patrones-fisuras-telon-fondo-estilo-simple-sobre-fondo-azul-ilustracion-vectorial_97843-3634.jpg?w=2000');
+  background-repeat: repeat;
+  animation: cambiar 45s ease-in-out infinite;
+}
+
+.subbody{
+  min-height: calc(100vh - 50px);
+  background: linear-gradient(70deg,rgba(0, 0, 0, .9),rgb(0, 0, 52, .9),rgb(110, 0, 96, .9),rgb(0, 0, 0, .9));
+  background-size: 400% 600%;
+  animation: cambiar 10s ease-in-out infinite;
+  padding-bottom: 20px;
+}
+
+.margin{
+  padding-top: 110px !important;
+}
+
+.marginB{
+  padding-top: 110px !important;
+}
+
+input{
+  padding: 20px;
+  width: calc(100% - 80px);
+  margin: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-style: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+input:focus{
+  transition: all .3s ease-in-out;
+  outline: 10px solid orange; 
+}
+
+input::placeholder{
+  font-style: italic;
+  color: rgb(211, 211, 211);
+}
+
+nav{
+  padding: 20px;
+  position: fixed !important;
+  background: black !important;
+  font-size: 20px;
+  width: 100%;
+  z-index: 1 !important;
+  box-shadow: 0px 0px 15px black;
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+nav a:hover{
+  color:white !important
+}
+
+footer{
+  background: black;
+  font-size: 19px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid rgb(63, 63, 63);
+
+
+}
+
+.hash{
+  border: 3px solid white;
+  padding: 18px;
+  margin-right: 7px;
+  margin-left: 7px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-style: italic;
+  width: fit-content;
+  background: transparent;
+  color: #fff;
+  justify-content: center;
+  box-shadow: none;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.hash:hover{
+  color: orangered;
+  border: 3px solid orangered;
+  transition: all .3s ease-in-out;
+}
+
+.error{
+  border: 3px solid red;
+  padding: 18px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-style: italic;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.2);
+  color: red;
+  justify-content: center;
+  box-shadow: none;
+  outline: none;
+}
+
+.fav{
+  border: 3px solid white;
+  padding: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-style: italic;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: orangered;
+  justify-content: center;
+  box-shadow: none;
+  outline: none;
+  display: none;
+  transition: all .3s ease-in-out;
+}
+
+.fav:hover{
+  transition: all .3s ease-in-out;
+  border: 3px solid orangered;
+  background: rgb(253, 221, 209);
+}
+
+.nofav{
+  border: 3px solid white;
+  padding: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-style: italic;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  justify-content: center;
+  box-shadow: none;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.nofav:hover{
+  color: orangered;
+  border: 3px solid orangered;
+  transition: all .3s ease-in-out;
+}
+
+.cabecera{
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  font-style: italic;
+  color:white;
+  background: transparent;
+  width: fit-content;
+  box-sizing: border-box;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+  border: 5px solid yellow;
+  margin-bottom: 35px;
+}
+
+.cabeceraH{
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 10px !important;
+  font-style: italic;
+  color:white;
+  background: transparent;
+  width: fit-content;
+  box-sizing: border-box;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+  border: 5px solid yellow;
+  margin-bottom: 35px;
+
+}
+
+.cabeceraB{
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 10px !important;
+  font-style: italic;
+  color:white;
+  background: transparent;
+  width: fit-content;
+  box-sizing: border-box;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+  border: 5px solid yellow;
+  margin-bottom: 5px !important;
+
+}
+.titulo{
+  background: linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: color .5s ease-in-out;
+}
+
+.titulo:hover{
+  color: #fff;
+  -webkit-background-clip: text;
+  transition: color .5s ease-in-out;
+}
+
+.grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.slideP{
+  width: 100vw;
+  overflow: auto;
+}
+
+.slideH{
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.gif75 {
+  box-sizing: border-box;
+  height: 210px;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+  background: transparent;
+  margin-bottom: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.gif75:hover{
+  transition: all .3s ease-in-out;
+  transform:scale(1.05);
+  background: linear-gradient(70deg,red,yellow,green);
+  background-size: 400% 600%;
+  animation: cambiar 3s ease-in-out infinite;
+}
+
+.gif75 img{
+  width: calc(100% - 16px);
+  margin-top:7px;
+  margin-left: 1px;
+  height: 196px;
+  object-fit: fill;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+}
+
+.gif75 img:hover{
+  opacity: .6;
+}
+
+.gif100 {
+  box-sizing: border-box;
+  height: 210px;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+  background: transparent;
+  margin-bottom: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.gif100:hover{
+  transition: all .3s ease-in-out;
+  transform:scale(1.05);
+  background: linear-gradient(70deg,red,yellow,green);
+  background-size: 400% 600%;
+  animation: cambiar 3s ease-in-out infinite;
+}
+
+.gif100 img{
+  width: calc(100% - 16px);
+  margin-top:7px;
+  margin-left: 7px;
+  height: 196px;
+  object-fit: fill;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+}
+
+.gif100 img:hover{
+  opacity: .6;
+}
+
+.gifSlide {
+  box-sizing: border-box;
+  height: 210px;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+  background: transparent;
+  margin-bottom: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.gifSlide:hover{
+  transition: background, transform  .3s ease-in-out;
+  transform:scale(1.05);
+  background: linear-gradient(70deg,red,yellow,green);
+  background-size: 400% 600%;
+  animation: cambiar 3s ease-in-out infinite;
+  padding-right: 8px;}
+
+.gifSlide img{
+  width: auto;
+  margin-top:7px;
+  margin-left: 7px;
+  height: 196px;
+  object-fit: fill;
+  clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+}
+
+.gifSlide img:hover{
+  opacity: .6;
+}
+
+.imgUser{
+  border-radius: 150px;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.infoUser{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+hr{
+  border: 5px solid white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.imgGif{
+  border: 10px solid yellow;
+  width: fit-content;
+  margin: 30px;
+  transition: all .2s ease-in-out;
+}
+
+.imgGif:hover{
+  border: 10px solid orangered;
+  width: fit-content;
+  margin-bottom: 30px;
+  transition: all .2s ease-in-out;
+}
+
+.imgGif img {
+  height: 350px;
+  max-width: 100%;
+}
+
+.navbarMR{
+  display: none;
+}
+
+.der{
+  float: right;
+}
+
+.display{
+  right: -210px;
+  margin-top: 70px;
+  background: orangered !important;
+  color:black !important;
+  width: 200px;
+  float: right;
+  transition: all .3s ease-in-out;
+}
+
+.display a{
+  color:black !important;
+}
+
+@keyframes cambiar{
+  0%{background-position: 0 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0 50%;}
+}
+
+.logout{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  padding: 18px;
+  padding-right: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 20px;
+  font-style: italic;
+  width: fit-content;
+  background: transparent;
+  color: #fff;
+  justify-content: center;
+  box-shadow: none;
+  outline: none;
+  transition: all .3s ease-in-out;
+  float: right;
+  position: sticky;
+  margin-top: -10px;
+}
+
+.logout:hover{
+  color:orangered;
+  border-top: 3px solid orangered;
+  border-bottom: 3px solid orangered;
+  border-left: 3px solid orangered;}
+
+@media (max-width: 1140px) {
+
+  input{
+    font-size: 18px;
+  }
+
+  .infoUser{
+    text-align: center;
+  }
+  .hash{
+    font-size: 12px;
+    margin: 5px;
+
+  }
+  .navbarR{
+    display: none;
+  }
+  .navbarMR{
+    display: block;
+  }
+
+  .infoUser{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .mr{
+    border: 2px solid white;
+    padding: 5px;
+    margin: 0px;
+    margin-right: 0px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    justify-content: center;
+    box-shadow: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+  }
+  
+  .mr:hover{
+    color: orangered;
+    border: 2px solid orangered;
+    transition: all .3s ease-in-out;
+  }
+
+  .burguer{
+    display:block  
+  }
+
+  .equis{
+    display:none  
+  }
+
+  .marginB{
+    padding-top: 80px !important;
+  }
+
+  .grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    max-height: 1900px !important;
+    margin-bottom: 50px;
+  }
+
+  .cabecera{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -10px !important;
+    font-style: italic;
+    color:white;
+    background: transparent;
+    width: fit-content;
+    box-sizing: border-box;
+    clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+    border: 5px solid yellow;
+    margin-bottom: 35px;
+  
+  }
+
+  .cabeceraH{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -10px !important;
+    font-style: italic;
+    color:white;
+    background: transparent;
+    width: fit-content;
+    box-sizing: border-box;
+    clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+    border: 5px solid yellow;
+    margin-bottom: 35px;
+  
+  }
+
+  .cabeceraB{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px !important;
+    font-style: italic;
+    color:white;
+    background: transparent;
+    width: fit-content;
+    box-sizing: border-box;
+    clip-path: polygon(7% 0, 100% 0%, 93% 99%, 0% 100%);
+    border: 5px solid yellow;
+    margin-bottom: 35px;
+  
+  }
+
+  .imgGif img {
+    height: 100%;
+    max-width: 100%;
+  }
+
+  hr{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+}
