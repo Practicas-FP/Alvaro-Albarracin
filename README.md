@@ -2,7 +2,7 @@
 # Información general.
 Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM en Accenture.
 En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
-Se seleccionan dos apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular y Ionic y por otro una api de [Gifs](https://developers.giphy.com/docs/api/#quick-start-guide) para React. Por el momneto hemos trabajado con las siguientes tecnologías:
+Se seleccionan dos apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular y Ionic y por otro la api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React. Por el momneto hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
 - React.
