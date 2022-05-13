@@ -1,11 +1,14 @@
 
 # Información general.
 Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM en Accenture.
-En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
-Se seleccionan dos apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular y Ionic y por otro la api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React. Por el momneto hemos trabajado con las siguientes tecnologías:
+Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
 - React.
+- Android.
+- Flutter *(en proceso).*
+En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
+Se seleccionan tres apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último una api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
 ___
 ## Angular.
 Características:
@@ -43,4 +46,14 @@ Características:
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web.
 
-![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
+![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
+___
+## Android.
+Características:
+- Consumo de Api.
+- Filtro de clima por pais y ciudad.
+- Mostrar diferentes datos del clima incluyendo imágenes a través de Picasso.
+- Guardado de favoritos a través de Room.
+- Desplegar como Apk.
+
+![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android.png?raw=true)
