@@ -1,6 +1,6 @@
 
 # Información general.
-Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM en Accenture.
+Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM en Accenture en el proyecto **Pool Interactive**.
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
