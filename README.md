@@ -41,7 +41,6 @@ ___
 Características:
 - Consumo de Api.
 - Cuadro de búsqueda por término.
-- Filtro por gifs sin póster.
 - Gifs popular.
 - Tendencia de búsquedas.
 - Sístema de login con Firebase de Google.
