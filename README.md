@@ -46,7 +46,7 @@ Características:
 - Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web. Puedes acceder a la web [aquí](https://totalgifapp.netlify.app).
-- En React Native se realiza una imini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compñaeros acabasen con otras tecnologías.
+- En React Native se realiza una mini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compñaeros acabasen con otras tecnologías.
 
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
 ___
