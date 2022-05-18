@@ -7,7 +7,7 @@ Hemos hemos trabajado con las siguientes tecnologías:
 - React JS.
 - React Native.
 - Android.
-- Flutter *(en proceso).*
+- Flutter.
 
 En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
 Se seleccionan tres apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último una api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
@@ -46,6 +46,7 @@ Características:
 - Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web.
+- En React Native se realiza una imini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compñaeros acabasen con otras tecnologías.
 
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
 ___
@@ -58,3 +59,19 @@ Características:
 - Desplegar como Apk.
 
 ![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android.png?raw=true)
+
+___
+## Flutter.
+Características:
+- Consumo de Api.
+- Mostrar películas en cine y películas populares en el Home.
+- Cuadro de búsqueda de películas.
+- Animaciones de navegación.
+- Uso de diferente tipos de Widgets para mostrar datos.
+- Uso de scroll infinito.
+- Mostrar elenco de actrores que participan en la palicula.
+- Uso de Bottom Navigation Bar.
+
+![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter1.png?raw=true)
+![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter2.png?raw=true)
+![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter3.png?raw=true)
