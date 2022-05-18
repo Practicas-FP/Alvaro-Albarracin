@@ -4,9 +4,11 @@ Repositorio con los trabajos realizados por el alumno **Álvaro González Albarr
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
-- React.
+- React JS.
+- React Native.
 - Android.
 - Flutter *(en proceso).*
+
 En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
 Se seleccionan tres apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último una api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
 ___
@@ -35,11 +37,10 @@ Características:
 ![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
 ![Ionic4](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic4.png?raw=true)
 ___
-## React.
+## React JS.
 Características:
 - Consumo de Api.
 - Cuadro de búsqueda por término.
-- Filtro por gifs sin póster.
 - Gifs popular.
 - Tendencia de búsquedas.
 - Sístema de login con Firebase de Google.
