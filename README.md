@@ -56,6 +56,7 @@ Características:
 - Filtro de clima por pais y ciudad.
 - Mostrar diferentes datos del clima incluyendo imágenes a través de Picasso.
 - Guardado de favoritos a través de Room.
+- Uso de imágenes desde web a través de Picasso.
 - Desplegar como Apk.
 
 ![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android.png?raw=true)
