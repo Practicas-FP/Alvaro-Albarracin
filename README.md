@@ -4,7 +4,8 @@ Repositorio con los trabajos realizados por el alumno **Álvaro González Albarr
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
-- React.
+- React JS.
+- React Native.
 - Android.
 - Flutter *(en proceso).*
 
@@ -36,7 +37,7 @@ Características:
 ![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
 ![Ionic4](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic4.png?raw=true)
 ___
-## React.
+## React JS.
 Características:
 - Consumo de Api.
 - Cuadro de búsqueda por término.
