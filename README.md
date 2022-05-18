@@ -19,7 +19,7 @@ Características:
 - Filtro por películas sin póster.
 - Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
-- Desplegar como web.
+- Desplegar como web. Puedes acceder a la web [aquí](https://movieposterapp.netlify.app/).
 
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
 ___
@@ -45,7 +45,7 @@ Características:
 - Tendencia de búsquedas.
 - Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
-- Desplegar como web.
+- Desplegar como web. Puedes acceder a la web [aquí](https://totalgifapp.netlify.app).
 - En React Native se realiza una imini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compñaeros acabasen con otras tecnologías.
 
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
