@@ -22,6 +22,8 @@ Características:
 - Desplegar como web. Puedes acceder a la web [aquí](https://movieposterapp.netlify.app/).
 
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
+![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular2.png?raw=true)
+![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular3.png?raw=true)
 ___
 ## Ionic.
 Características:
@@ -35,7 +37,6 @@ Características:
 ![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
 ![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
 ![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
-![Ionic4](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic4.png?raw=true)
 ___
 ## React JS.
 Características:
@@ -49,6 +50,8 @@ Características:
 - En React Native se realiza una mini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compañeros acabasen con otras tecnologías.
 
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
+![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react2.png?raw=true)
+![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react3.png?raw=true)
 ___
 ## Android.
 Características:
@@ -59,8 +62,9 @@ Características:
 - Uso de imágenes desde web a través de Picasso.
 - Desplegar como Apk.
 
-![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android.png?raw=true)
-
+![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android1.png?raw=true)
+![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android2.png?raw=true)
+![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android3.png?raw=true)
 ___
 ## Flutter.
 Características:
