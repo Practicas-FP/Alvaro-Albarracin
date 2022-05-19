@@ -1,5 +1,5 @@
 # Información general.
-Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM.
+aRepositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes a la Formación en Centros de Trabajo del Ciclo Formativo de Grado Superior de DAM.
 
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
@@ -65,6 +65,7 @@ ___
 ___
 ## Android.
 Características:
+- Uso del lenguaje Kotlin.
 - Consumo de Api.
 - Filtro de clima por pais y ciudad.
 - Mostrar diferentes datos del clima incluyendo imágenes a través de Picasso.
