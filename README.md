@@ -38,6 +38,7 @@ Características:
 - Desplegar como APK.
 
 **Capturas:**
+
 ![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
 ![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
 ![Ionic3](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic3.png?raw=true)
@@ -70,6 +71,7 @@ Características:
 - Desplegar como Apk.
 
 **Capturas:**
+
 ![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android1.png?raw=true)
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android2.png?raw=true)
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android3.png?raw=true)
@@ -86,6 +88,7 @@ Características:
 - Uso de Bottom Navigation Bar.
 
 **Capturas:**
+
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter1.png?raw=true)
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter2.png?raw=true)
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter3.png?raw=true)
