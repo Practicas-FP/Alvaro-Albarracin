@@ -21,8 +21,11 @@ Características:
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web. Puedes acceder a la web [aquí](https://movieposterapp.netlify.app/).
 
+###Capturas:
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
+___
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular2.png?raw=true)
+___
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular3.png?raw=true)
 ___
 ## Ionic.
