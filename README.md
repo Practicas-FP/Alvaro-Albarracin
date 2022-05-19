@@ -1,6 +1,6 @@
 
 # Información general.
-Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM.
+<div style="text-align: justify">Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM.</div>
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
@@ -9,8 +9,8 @@ Hemos hemos trabajado con las siguientes tecnologías:
 - Android.
 - Flutter.
 
-En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
-Se seleccionan tres Apis para los proyectos de prácticas, por un lado, la Api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la Api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último, para Android, una Api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
+<div style="text-align: justify">En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
+Se seleccionan tres Apis para los proyectos de prácticas, por un lado, la Api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la Api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último, para Android, una Api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).</div>
 ___
 ## Angular.
 Características:
@@ -22,6 +22,7 @@ Características:
 - Desplegar como web. Puedes acceder a la web [aquí](https://movieposterapp.netlify.app/).
 
 **Capturas:**
+
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
 ___
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular2.png?raw=true)
@@ -55,6 +56,7 @@ Características:
 - En React Native se realiza una mini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compañeros acabasen con otras tecnologías.
 
 **Capturas:**
+
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
 ___
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react2.png?raw=true)
