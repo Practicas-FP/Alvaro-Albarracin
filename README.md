@@ -1,6 +1,6 @@
 
 # Información general.
-Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM en Accenture.
+Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM.
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
@@ -10,7 +10,7 @@ Hemos hemos trabajado con las siguientes tecnologías:
 - Flutter.
 
 En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
-Se seleccionan tres apis para los proyectos de prácticas, por un lado, la api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último una api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
+Se seleccionan tres Apis para los proyectos de prácticas, por un lado, la Api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la Api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último, para Android, una Api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
 ___
 ## Angular.
 Características:
@@ -46,7 +46,7 @@ Características:
 - Sístema de login con Firebase de Google.
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web. Puedes acceder a la web [aquí](https://totalgifapp.netlify.app).
-- En React Native se realiza una imini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compñaeros acabasen con otras tecnologías.
+- En React Native se realiza una mini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compañeros acabasen con otras tecnologías.
 
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
 ___
@@ -56,6 +56,7 @@ Características:
 - Filtro de clima por pais y ciudad.
 - Mostrar diferentes datos del clima incluyendo imágenes a través de Picasso.
 - Guardado de favoritos a través de Room.
+- Uso de imágenes desde web a través de Picasso.
 - Desplegar como Apk.
 
 ![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android.png?raw=true)
