@@ -1,5 +1,5 @@
 # Información general.
-aRepositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes a la Formación en Centros de Trabajo del Ciclo Formativo de Grado Superior de DAM.
+Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes a la Formación en Centros de Trabajo del Ciclo Formativo de Grado Superior de DAM.
 
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
