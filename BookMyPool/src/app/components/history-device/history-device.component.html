@@ -1,0 +1,38 @@
+<h1 mat-dialog-title>{{ device.brand }} {{ device.model }}</h1>
+
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+      <th mat-header-cell *matHeaderCellDef> Id </th>
+      <td mat-cell *matCellDef="let element"> {{element.book.id }} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="employee">
+      <th mat-header-cell *matHeaderCellDef> Employee</th>
+      <td mat-cell *matCellDef="let element"> {{element.employee.firstName }} {{element.employee.lastName }}</td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="lendingDate">
+      <th mat-header-cell *matHeaderCellDef> Lending Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.book.lendingDate }} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="returningDate">
+      <th mat-header-cell *matHeaderCellDef> Returning Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.book.returningDate || 'Not returned' }} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                 showFirstLastButtons
+                 aria-label="Select page of periodic elements">
+  </mat-paginator>
+</div>

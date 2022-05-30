@@ -1,0 +1,64 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 10%;
+  padding: 10px !important;
+}
+
+.anchoAction {
+  width: 7%;
+}
+
+.semaforo {
+  width: 5%;
+}
+
+.example-container {
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+
+.isBooked {
+  background-color: rgb(255, 241, 242) !important;
+}
+
+.isBookedSemaforoRed {
+  background-color: red !important;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.isBookedSemaforoGreen {
+  background-color: limegreen !important;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.mat-row .mat-cell {
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  background-color: rgb(231, 231, 251) !important;
+}
+
+@media only screen and (max-width : 600px) {
+
+  td, th {
+    padding: 10px !important;
+  }
+
+}

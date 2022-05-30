@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Book device:</h1>
+
+<form>
+  <div style="width: 100%;" class="example-container">
+    <mat-form-field style="width: 100%;" class="input" appearance="fill">
+      <mat-label>Employee</mat-label>
+      <mat-select #employ required>
+        <mat-option *ngFor="let employee of employes" [value]="employee.id">{{ employee.firstName }} {{ employee.lastName }}</mat-option>
+      </mat-select>
+      <mat-error *ngIf="EmployeeControl.hasError('required')">Please choose a employee</mat-error>
+    </mat-form-field>
+  </div>
+
+  <div align="center" style="width: 100%; margin-bottom: -5px;" mat-dialog-actions>
+    <button (click)="save(employ.value)" type="submit" mat-raised-button style="background-color: #002b5c; color:white">Submit</button>
+    <button mat-button class="mat-focus-indicator mat-raised-button mat-button-base mat-raised"
+      (click)="onNoClick()">Close</button>
+  </div>
+</form>

@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 18%;
+  padding: 10px !important;
+}
+
+.example-container {
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+.isBooked {
+  background-color: rgb(236, 236, 236);
+}
+
+.mat-row .mat-cell {
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  background-color: rgb(231, 231, 251) !important;
+}
+
+@media only screen and (max-width : 600px) {
+
+  td, th {
+    padding: 10px !important;
+  }
+
+}
