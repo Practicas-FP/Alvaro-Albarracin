@@ -104,6 +104,7 @@ Características:
 - Uso de GitHub para compartir repositorios.
 - Elaboración de una Api Rest desde el backend.
 - Consumo de Api con peticiones GET, POST, etc.
+- Login para que solo los usuarios registrados puedean acceder al sistema.
 
 **Capturas:**
 
