@@ -11,6 +11,7 @@ Hemos hemos trabajado con las siguientes tecnologías:
 
 En concreto las prácticas consisten en realizar una aplicación que consuma una *Api pública* y que muestre los resultados por pantalla de una forma atractiva.
 Se seleccionan tres Apis para los proyectos de prácticas, por un lado, la Api de películas de [TMDB](https://www.themoviedb.org/movie?language=es-ES) para los proyectos de Angular, Ionic y Flutter, por otro la Api de gifs de [Giphy](https://developers.giphy.com/docs/api/#quick-start-guide) para React y por último, para Android, una Api de predicciones meteorológicas llamada [Weatherbit](https://www.weatherbit.io/).
+Finalmente se realizó un proyecto final en el que trabajamos de forma conjunta todos los compañeros del proyecto para desarrollar un gestor de dispositivos.
 ___
 ## Angular.
 Características:
