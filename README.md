@@ -1,6 +1,6 @@
-
 # Información general.
-Repositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes al FCT de DAM.
+aRepositorio con los trabajos realizados por el alumno **Álvaro González Albarracín** en las prácticas correspondientes a la Formación en Centros de Trabajo del Ciclo Formativo de Grado Superior de DAM.
+
 Hemos hemos trabajado con las siguientes tecnologías:
 - Angular.
 - Ionic.
@@ -21,8 +21,12 @@ Características:
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Desplegar como web. Puedes acceder a la web [aquí](https://movieposterapp.netlify.app/).
 
+**Capturas:**
+
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular1.png?raw=true)
+___
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular2.png?raw=true)
+___
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/angular3.png?raw=true)
 ___
 ## Ionic.
@@ -33,6 +37,8 @@ Características:
 - Guardado de favoritos a través de la base de datos Firestore de Firebase de Google.
 - Cambio de imagen de usuario.
 - Desplegar como APK.
+
+**Capturas:**
 
 ![Ionic1](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic1.png?raw=true)
 ![Ionic2](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/ionic2.png?raw=true)
@@ -49,18 +55,25 @@ Características:
 - Desplegar como web. Puedes acceder a la web [aquí](https://totalgifapp.netlify.app).
 - En React Native se realiza una mini app para aprender su funcionamiento, solo trabajo un par de días a la espera de que los compañeros acabasen con otras tecnologías.
 
+**Capturas:**
+
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react1.png?raw=true)
+___
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react2.png?raw=true)
+___
 ![React](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/react3.png?raw=true)
 ___
 ## Android.
 Características:
+- Uso del lenguaje Kotlin.
 - Consumo de Api.
 - Filtro de clima por pais y ciudad.
 - Mostrar diferentes datos del clima incluyendo imágenes a través de Picasso.
 - Guardado de favoritos a través de Room.
 - Uso de imágenes desde web a través de Picasso.
 - Desplegar como Apk.
+
+**Capturas:**
 
 ![Android](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android1.png?raw=true)
 ![Angular](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/android2.png?raw=true)
@@ -76,6 +89,8 @@ Características:
 - Uso de scroll infinito.
 - Mostrar elenco de actrores que participan en la palicula.
 - Uso de Bottom Navigation Bar.
+
+**Capturas:**
 
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter1.png?raw=true)
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter2.png?raw=true)
