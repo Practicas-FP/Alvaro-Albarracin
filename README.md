@@ -95,3 +95,17 @@ Características:
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter1.png?raw=true)
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter2.png?raw=true)
 ![Flutter](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/flutter3.png?raw=true)
+___
+## Proyecyo final.
+Características:
+- Gestor de dispositivos y su reserva.
+- Proyecto final desarrollado en equipo con la tecnología Angular.
+- Uso de GitHub para compartir repositorios.
+- Elaboración de una Api Rest desde el backend.
+- Consumo de Api con peticiones GET, POST, etc.
+
+**Capturas:**
+
+![BMP](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/bmp1.png?raw=true)
+![BMP](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/bmp2.png?raw=true)
+![BMP](https://github.com/Formacion-Accenture/algonal/blob/main/Im%C3%A1genes/bmp3.png?raw=true)
